@@ -1,6 +1,7 @@
 .intro {
 	background-color: #002B85;
-	height:5em;
+	height:6em;
+	padding:1em;
 }
 
 .intro h1 {
@@ -13,6 +14,7 @@
 .action-section {
 	text-align:center;
 	display: inline-block;
+	width:100%;
 }
 
 button {
@@ -28,7 +30,7 @@ line-height: 2em;
 padding: 0 0.5em;
 background-color: #FFBF2E;
 
-margin:0 auto;
+margin:1em;
 }
 .examplelist li {
 	text-align: center;
