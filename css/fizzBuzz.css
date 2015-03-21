@@ -1,0 +1,38 @@
+.intro {
+	background-color: #002B85;
+	height:5em;
+}
+
+.intro h1 {
+	font-size:3em;
+	color:#FFBF2E;
+	text-align:center;
+
+}
+
+.action-section {
+	text-align:center;
+	display: inline-block;
+}
+
+button {
+border: none;
+border-radius: 1em;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-size: 2.5em;
+height: 2em;
+line-height: 2em;
+
+padding: 0 0.5em;
+background-color: #FFBF2E;
+
+margin:0 auto;
+}
+.examplelist li {
+	text-align: center;
+	font-size:2em;
+	color:#FFBF2E;
+}
+
