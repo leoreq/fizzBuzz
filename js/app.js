@@ -6,8 +6,8 @@ $(document).ready(function() {
 		console.log("Let the fizBuzz Games begin");
 		for (contador=1;contador<=100;contador++) 
 			{
-				console.log(contador);
-				if (contador%3===0 && contador%7===0)
+				
+				if (contador%3===0 && contador%5===0)
 					{
 						$(".examplelist").append("<li>fizzBuzz</li>");
 					}
@@ -15,7 +15,7 @@ $(document).ready(function() {
 					{
 						$(".examplelist").append("<li>fizz</li>");
 					}
-				else if (contador%7===0)
+				else if (contador%5===0)
 					{
 						$(".examplelist").append("<li>Buzz</li>");
 					}
